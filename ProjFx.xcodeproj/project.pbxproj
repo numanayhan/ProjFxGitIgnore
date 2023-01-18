@@ -13,6 +13,7 @@
 		F44956562965F6FF0006EEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44956542965F6FF0006EEB0 /* LaunchScreen.storyboard */; };
 		F44956622965FBA90006EEB0 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44956612965FBA90006EEB0 /* Launch.swift */; };
 		F44956642965FBB90006EEB0 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44956632965FBB90006EEB0 /* Navigation.swift */; };
+		F44956672965FDCB0006EEB0 /* Onboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44956662965FDCB0006EEB0 /* Onboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F44956572965F6FF0006EEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44956612965FBA90006EEB0 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		F44956632965FBB90006EEB0 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		F44956662965FDCB0006EEB0 /* Onboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 				EF90A4C3D04CC1D780689A7B /* Pods-ProjFx.debug.xcconfig */,
 				ABBA85265ADCC2E77F05933B /* Pods-ProjFx.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,6 +80,7 @@
 		F44956482965F6FD0006EEB0 /* ProjFx */ = {
 			isa = PBXGroup;
 			children = (
+				F44956652965FDB80006EEB0 /* Modules */,
 				F449565D2965FB7F0006EEB0 /* Application */,
 				F44956572965F6FF0006EEB0 /* Info.plist */,
 			);
@@ -119,6 +121,14 @@
 				F44956612965FBA90006EEB0 /* Launch.swift */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		F44956652965FDB80006EEB0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F44956662965FDCB0006EEB0 /* Onboard.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44956642965FBB90006EEB0 /* Navigation.swift in Sources */,
+				F44956672965FDCB0006EEB0 /* Onboard.swift in Sources */,
 				F44956622965FBA90006EEB0 /* Launch.swift in Sources */,
 				F449564A2965F6FD0006EEB0 /* AppDelegate.swift in Sources */,
 			);
